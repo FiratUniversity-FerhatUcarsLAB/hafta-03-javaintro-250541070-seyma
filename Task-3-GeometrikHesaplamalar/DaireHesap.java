@@ -3,16 +3,17 @@
 
 public class DaireHesap {
     public static void main(String[] args) {
-        double en = 4.5;
-        double boy = 7.9;
+        double r = 5.5;
+        double pi = 3.14159;
         
         // Alan hesapla
-        double alan = en*boy;
+        double alan = pi * r * r;
         
         // Cevre hesapla
-        double cevre = (en+boy)*2;
+        double cevre = 2 * pi * r;
         
         // Sonucları hesapla
+        System.out.println("Yaricap: " + r);
         System.out.println("Alan: " + alan);
         System.out.println("Cevre: " + cevre);
     }
